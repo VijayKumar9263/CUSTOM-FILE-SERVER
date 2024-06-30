@@ -1,99 +1,71 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
-<body>
+# Project Title: Custom File Server
 
-<h1>Project Title: Custom File Server</h1>
+Welcome to the Custom File Server project! This project involves creating a simple server using Node.js that hosts files and allows users to access them if they are available on the server. If a requested file is not found, the user will see a 404 Not Found page.
 
-<p>Welcome to the Custom File Server project! This project involves creating a simple server using Node.js that hosts files and allows users to access them if they are available on the server. If a requested file is not found, the user will see a 404 Not Found page.</p>
+## Features
+- Host files on your own server using Node.js.
+- Users can access files if they are available on the server.
+- Custom 404 Not Found page for unavailable files.
 
-<h2>Features</h2>
-<ul>
-    <li>Host files on your own server using Node.js.</li>
-    <li>Users can access files if they are available on the server.</li>
-    <li>Custom 404 Not Found page for unavailable files.</li>
-</ul>
+## Getting Started
 
-<h2>Getting Started</h2>
+### Prerequisites
+- Node.js installed on your machine
+- Basic knowledge of JavaScript and HTML
 
-<h3>Prerequisites</h3>
-<ul>
-    <li>Node.js installed on your machine</li>
-    <li>Basic knowledge of JavaScript and HTML</li>
-</ul>
+### Installation
+1. **Clone the repository:**
+git clone https://github.com/VijayKumar9263/OWN-SERVER.git
 
-<h3>Installation</h3>
-<ol>
-    <li>
-        <p><strong>Clone the repository:</strong></p>
-        <pre><code>git clone https://github.com/VijayKumar9263/OWN-SERVER.git</code></pre>
-    </li>
-    <li>
-        <p><strong>Navigate to the project directory:</strong></p>
-        <pre><code>cd OWN-SERVER</code></pre>
-    </li>
-    <li>
-        <p><strong>Install the dependencies:</strong></p>
-        <pre><code>npm install</code></pre>
-    </li>
-    <li>
-        <p><strong>Start the server:</strong></p>
-        <pre><code>node index.js</code></pre>
-    </li>
-</ol>
+2. **Navigate to the project directory:**
+cd OWN-SERVER
 
-<h2>Project Structure</h2>
-<ul>
-    <li><code>index.js</code>: The main file that sets up and starts the Node.js server.</li>
-    <li><code>index.html</code>, <code>about.html</code>, <code>contact.html</code>, <code>service.html</code>: HTML files for different pages.</li>
-    <li><code>style.css</code>: Stylesheet for the HTML pages.</li>
-    <li><code>Image/</code>: Directory for storing images.</li>
-</ul>
+3. **Install the dependencies:**
+npm install
 
-<h2>Usage</h2>
-<ol>
-    <li><strong>Access the server:</strong>
-        <p>Open your web browser and go to <code>http://localhost:3000/</code>.</p>
-    </li>
-    <li><strong>Request a file:</strong>
-        <p>Enter the file name in the URL. For example, <code>http://localhost:3000/example.txt</code>.</p>
-    </li>
-    <li><strong>404 Not Found:</strong>
-        <p>If the file is not available, you will see the custom 404 Not Found page.</p>
-    </li>
-</ol>
+4. **Start the server:**
+node index.js
 
-<h2>Screenshots</h2>
 
-<h3>Homepage</h3>
-![image](https://github.com/VijayKumar9263/OWN-SERVER/assets/134833144/3439c2ce-a498-4d01-bf26-99be0e21e85a)
+## Project Structure
+- `index.js`: The main file that sets up and starts the Node.js server.
+- `index.html`, `about.html`, `contact.html`, `service.html`: HTML files for different pages.
+- `style.css`: Stylesheet for the HTML pages.
+- `Image/`: Directory for storing images.
 
-<h3>File Access</h3>
-![image](https://github.com/VijayKumar9263/OWN-SERVER/assets/134833144/3a41dcb8-80dd-4f07-8673-3eb1a2448694)
+## Usage
+1. **Access the server:**
+Open your web browser and go to `http://localhost:3000/`.
 
-<h3>404 Not Found</h3>
-![image](https://github.com/VijayKumar9263/OWN-SERVER/assets/134833144/8aefbca0-d2b9-418e-929e-e2be7169b6c8)
+2. **Request a file:**
+Enter the file name in the URL. For example, `http://localhost:3000/example.txt`.
 
-<h2>Contributing</h2>
-<ol>
-    <li>Fork the repository.</li>
-    <li>Create a new branch: <code>git checkout -b feature-branch</code>.</li>
-    <li>Make your changes and commit them: <code>git commit -m 'Add some feature'</code>.</li>
-    <li>Push to the branch: <code>git push origin feature-branch</code>.</li>
-    <li>Submit a pull request.</li>
-</ol>
+3. **404 Not Found:**
+If the file is not available, you will see the custom 404 Not Found page.
 
-<h2>License</h2>
-<p>This project is licensed under the MIT License - see the <a href="LICENSE">LICENSE</a> file for details.</p>
+## Screenshots
 
-<h2>Acknowledgments</h2>
-<ul>
-    <li>Inspiration from various web development tutorials.</li>
-    <li>Thanks to the open-source community for their valuable resources.</li>
-</ul>
+### Homepage
+![image](https://github.com/VijayKumar9263/OWN-SERVER/assets/134833144/e6955b76-314d-463b-9e3a-b77b475e302a)
 
-</body>
-</html>
+### File Access
+![image](https://github.com/VijayKumar9263/OWN-SERVER/assets/134833144/77ef806a-6ee7-47cb-a313-68be37ec50e6)
+
+
+### 404 Not Found
+![image](https://github.com/VijayKumar9263/OWN-SERVER/assets/134833144/fe713dac-631b-4174-96fb-c96f6e2a9a48)
+
+
+## Contributing
+1. Fork the repository.
+2. Create a new branch: `git checkout -b feature-branch`.
+3. Make your changes and commit them: `git commit -m 'Add some feature'`.
+4. Push to the branch: `git push origin feature-branch`.
+5. Submit a pull request.
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgments
+- Inspiration from various web development tutorials.
+- Thanks to the open-source community for their valuable resources.
