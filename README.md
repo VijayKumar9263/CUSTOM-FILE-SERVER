@@ -69,13 +69,13 @@
 <h2>Screenshots</h2>
 
 <h3>Homepage</h3>
-<img src="Image/homepage.png" alt="Homepage">
+![image](https://github.com/VijayKumar9263/OWN-SERVER/assets/134833144/3439c2ce-a498-4d01-bf26-99be0e21e85a)
 
 <h3>File Access</h3>
-<img src="Image/file-access.png" alt="File Access">
+![image](https://github.com/VijayKumar9263/OWN-SERVER/assets/134833144/3a41dcb8-80dd-4f07-8673-3eb1a2448694)
 
 <h3>404 Not Found</h3>
-<img src="Image/404.png" alt="404 Not Found">
+![image](https://github.com/VijayKumar9263/OWN-SERVER/assets/134833144/8aefbca0-d2b9-418e-929e-e2be7169b6c8)
 
 <h2>Contributing</h2>
 <ol>
