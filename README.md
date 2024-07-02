@@ -15,7 +15,7 @@ Welcome to the Custom File Server project! This project involves creating a simp
 
 ### Installation
 1. **Clone the repository:**
-git clone https://github.com/VijayKumar9263/OWN-SERVER.git
+git clone https://github.com/VijayKumar9263/CUSTOM-FILE-SERVER.git
 
 2. **Navigate to the project directory:**
 cd OWN-SERVER
