@@ -15,17 +15,24 @@ Welcome to the Custom File Server project! This project involves creating a simp
 
 ### Installation
 1. **Clone the repository:**
-git clone https://github.com/VijayKumar9263/CUSTOM-FILE-SERVER.git
+    ```bash
+    git clone https://github.com/VijayKumar9263/CUSTOM-FILE-SERVER.git
+    ```
 
 2. **Navigate to the project directory:**
-cd OWN-SERVER
+    ```bash
+    cd OWN-SERVER
+    ```
 
 3. **Install the dependencies:**
-npm install
+    ```bash
+    npm install
+    ```
 
 4. **Start the server:**
-node index.js
-
+    ```bash
+    node index.js
+    ```
 
 ## Project Structure
 - `index.js`: The main file that sets up and starts the Node.js server.
@@ -35,13 +42,13 @@ node index.js
 
 ## Usage
 1. **Access the server:**
-Open your web browser and go to `http://localhost:3000/`.
+    Open your web browser and go to `http://localhost:3000/`.
 
 2. **Request a file:**
-Enter the file name in the URL. For example, `http://localhost:3000/example.txt`.
+    Enter the file name in the URL. For example, `http://localhost:3000/example.txt`.
 
 3. **404 Not Found:**
-If the file is not available, you will see the custom 404 Not Found page.
+    If the file is not available, you will see the custom 404 Not Found page.
 
 ## Screenshots
 
@@ -51,10 +58,8 @@ If the file is not available, you will see the custom 404 Not Found page.
 ### File Access
 ![image](https://github.com/VijayKumar9263/OWN-SERVER/assets/134833144/77ef806a-6ee7-47cb-a313-68be37ec50e6)
 
-
 ### 404 Not Found
 ![image](https://github.com/VijayKumar9263/OWN-SERVER/assets/134833144/fe713dac-631b-4174-96fb-c96f6e2a9a48)
-
 
 ## Contributing
 1. Fork the repository.
