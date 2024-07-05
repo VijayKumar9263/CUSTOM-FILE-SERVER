@@ -1,4 +1,4 @@
-# Project Title: Custom File Server
+# Custom File Server
 
 Welcome to the Custom File Server project! This project involves creating a simple server using Node.js that hosts files and allows users to access them if they are available on the server. If a requested file is not found, the user will see a 404 Not Found page.
 
